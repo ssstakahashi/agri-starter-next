@@ -29,7 +29,7 @@ export default async function handleRequest(
   })
 
   if (isbot(request.headers.get('user-agent') || '')) {
-    await body.allReady
+    await (body as any).allReady
   }
 
   responseHeaders.set('Content-Type', 'text/html')

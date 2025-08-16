@@ -120,6 +120,36 @@ export default function About() {
             </div>
           </div>
         </section>
+
+        {/* さらに詳しく知る */}
+        <section className="py-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-center mb-12 text-green-800">さらに詳しく知る</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {/* 肥料を知る */}
+              <a href="/fertilizers" className="block bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-green-800 mb-2">肥料を知る</h3>
+                  <p className="text-gray-600">土と作物の健康を支える肥料の基本知識から、種類や効果的な使い方までを学びます。</p>
+                </div>
+              </a>
+              {/* 農業経営を知る */}
+              <a href="/farm-management" className="block bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-green-800 mb-2">農業経営を知る</h3>
+                  <p className="text-gray-600">農業をビジネスとして成功させるための、経営計画、資金繰り、販売戦略などを学びます。</p>
+                </div>
+              </a>
+              {/* 自然農法を知る */}
+              <a href="/natural-farming" className="block bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-green-800 mb-2">自然農法を知る</h3>
+                  <p className="text-gray-600">化学肥料や農薬に頼らず、自然の力を活かした持続可能な農法について学びます。</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />

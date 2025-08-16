@@ -4,9 +4,11 @@
  * For more information, see https://remix.run/file-conventions/entry.client
  */
 
-import { RemixBrowser } from '@remix-run/react'
+import * as RemixReact from '@remix-run/react'
 import { startTransition, StrictMode } from 'react'
 import { hydrateRoot } from 'react-dom/client'
+
+const RemixBrowser = (RemixReact as any).RemixBrowser
 
 startTransition(() => {
   hydrateRoot(
