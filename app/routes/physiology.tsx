@@ -89,6 +89,19 @@ export default function Physiology() {
             </div>
           </div>
         </section>
+
+        {/* 関連コンテンツ */}
+        <section className="py-16 bg-green-100">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-2xl font-bold text-green-800 mb-4">関連コンテンツ</h2>
+            <p className="text-gray-600 mb-8">農業の基礎科学に関する他のトピックもご覧いただけます。</p>
+            <div className="flex justify-center">
+              <a href="/pesticide" className="bg-white text-green-700 font-bold py-3 px-6 rounded-lg shadow-md hover:bg-green-50 transition">
+                農薬の知識について学ぶ
+              </a>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
