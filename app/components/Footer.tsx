@@ -12,7 +12,7 @@ export default function Footer() {
             <ul className="text-sm space-y-1">
               <li><a href="/about" className="text-green-200 hover:text-white">鳥取の農業を知る</a></li>
               <li><a href="/steps" className="text-green-200 hover:text-white">就農までのステップ</a></li>
-              <li><a href="/#support" className="text-green-200 hover:text-white">支援制度</a></li>
+              <li><a href="/support" className="text-green-200 hover:text-white">支援制度</a></li>
               <li><a href="/tools" className="text-green-200 hover:text-white">便利なツール</a></li>
               <li><a href="/contact" className="text-green-200 hover:text-white">相談窓口</a></li>
               <li><a href="/about-us" className="text-green-200 hover:text-white">このサイトについて</a></li>
