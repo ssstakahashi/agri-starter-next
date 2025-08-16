@@ -52,7 +52,7 @@ export default function Header({ currentPage }: HeaderProps) {
               就農までのステップ
             </a>
             <a
-              href="/#support"
+              href="/support"
               className={`transition duration-150 ease-in-out ${isActive('support')
                 ? 'text-green-700 font-semibold border-b-2 border-green-600'
                 : 'text-gray-600 hover:text-green-700'
@@ -110,7 +110,7 @@ export default function Header({ currentPage }: HeaderProps) {
           就農までのステップ
         </a>
         <a
-          href="/#support"
+          href="/support"
           className={`block py-2 px-4 text-sm ${isActive('support')
             ? 'text-green-700 bg-green-50'
             : 'text-gray-600 hover:bg-green-50'
