@@ -14,7 +14,7 @@ const app = new Hono<{
 let handler: RequestHandler | undefined
 
 app.use(poweredBy())
-app.get('/hono', (c) => c.text('Hono, ' + c.env.MY_VAR))
+app.get('/hono', (c) => c.text('Hono！！！！, ' + c.env.MY_VAR))
 
 app.use(
   async (c, next) => {
