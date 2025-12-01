@@ -40,7 +40,7 @@ export default function Watermelon() {
                 </p>
               </div>
               <div className="md:w-1/2">
-                <img src="https://placehold.co/600x400/e9f5e9/333333?text=スイカ畑の風景" alt="鳥取のスイカ畑" className="rounded-lg shadow-lg w-full" />
+                <img src="https://ssstakahashi-storage.studiofoods.net/image/agri/suika_svg.svg" alt="鳥取のスイカ畑" className="rounded-lg shadow-lg w-full" />
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Watermelon() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* 大栄スイカ */}
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
-                <img src="https://placehold.co/400x300/d4e2d4/333333?text=大栄スイカ" alt="大栄スイカ" className="w-full h-56 object-cover" />
+                <img src="https://ssstakahashi-storage.studiofoods.net/image/agri/suika_svg.svg" alt="大栄スイカ" className="w-full h-56 object-cover" />
                 <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-bold text-green-900">大栄スイカ <span className="text-sm font-normal text-gray-500">(6月～7月)</span></h3>
                   <p className="text-gray-600 mt-2 flex-grow">鳥取スイカの王様。大玉で糖度が高く、シャリ感あふれる食感が特徴です。光センサーによる選果で、品質の高さが保証されています。</p>
@@ -61,7 +61,7 @@ export default function Watermelon() {
               </div>
               {/* 極実スイカ（ごくみ） */}
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
-                <img src="https://placehold.co/400x300/ffd8b1/333333?text=極実スイカ" alt="極実スイカ" className="w-full h-56 object-cover" />
+                <img src="https://ssstakahashi-storage.studiofoods.net/image/agri/suika_svg.svg" alt="極実スイカ" className="w-full h-56 object-cover" />
                 <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-bold text-red-800">極実スイカ <span className="text-sm font-normal text-gray-500">(6月下旬～7月)</span></h3>
                   <p className="text-gray-600 mt-2 flex-grow">大栄スイカの中でも、糖度・形・熟度など、特に厳しい基準をクリアした最高級ブランド。贈答用としても絶大な人気を誇ります。</p>
@@ -69,7 +69,7 @@ export default function Watermelon() {
               </div>
               {/* 倉吉スイカ */}
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
-                <img src="https://placehold.co/400x300/c3e6cb/333333?text=倉吉スイカ" alt="倉吉スイカ" className="w-full h-56 object-cover" />
+                <img src="https://ssstakahashi-storage.studiofoods.net/image/agri/suika_svg.svg" alt="倉吉スイカ" className="w-full h-56 object-cover" />
                 <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-bold text-blue-800">倉吉スイカ <span className="text-sm font-normal text-gray-500">(6月)</span></h3>
                   <p className="text-gray-600 mt-2 flex-grow">倉吉市で栽培されるハウススイカのブランド。糖度が高く皮が薄いのが特徴で、贈答品としても人気があります。</p>
@@ -77,7 +77,7 @@ export default function Watermelon() {
               </div>
               {/* 抑制スイカ */}
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
-                <img src="https://placehold.co/400x300/ffecb3/333333?text=抑制スイカ" alt="抑制スイカ" className="w-full h-56 object-cover" />
+                <img src="https://ssstakahashi-storage.studiofoods.net/image/agri/suika_svg.svg" alt="抑制スイカ" className="w-full h-56 object-cover" />
                 <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-bold text-orange-800">抑制スイカ <span className="text-sm font-normal text-gray-500">(9月～10月)</span></h3>
                   <p className="text-gray-600 mt-2 flex-grow">出荷時期を遅らせて秋に収穫されるスイカ。夏の終わりから秋にかけて、名残のスイカとして楽しむことができます。甘みが凝縮されています。</p>

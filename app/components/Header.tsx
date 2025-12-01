@@ -28,8 +28,15 @@ export default function Header({ currentPage }: HeaderProps) {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* サイトロゴ */}
-          <div className="flex-shrink-0">
-            <a href="/" className="text-2xl font-bold text-green-800">鳥取県就農支援サイト</a>
+          <div className="flex-shrink-0 flex items-center">
+            <a href="/" className="flex items-center text-2xl font-bold text-green-800">
+              <img
+                src="https://mieru-storage-backend.studiofoods.net/public/file/download/15cbf42c-bfd3-4cde-b4f6-75b9687b6881"
+                alt="サイトアイコン"
+                className="h-8 w-8 mr-2"
+              />
+              鳥取県就農支援サイト
+            </a>
           </div>
           {/* PC向けナビゲーション */}
           <nav className="hidden md:flex md:space-x-8">
@@ -41,6 +48,15 @@ export default function Header({ currentPage }: HeaderProps) {
                 }`}
             >
               鳥取の農業を知る
+            </a>
+            <a
+              href="/agriculture-knowledge"
+              className={`transition duration-150 ease-in-out ${isActive('agriculture-knowledge')
+                ? 'text-green-700 font-semibold border-b-2 border-green-600'
+                : 'text-gray-600 hover:text-green-700'
+                }`}
+            >
+              農業知識
             </a>
             <a
               href="/steps"
@@ -68,6 +84,15 @@ export default function Header({ currentPage }: HeaderProps) {
                 }`}
             >
               便利なツール
+            </a>
+            <a
+              href="/community"
+              className={`transition duration-150 ease-in-out ${isActive('community')
+                ? 'text-green-700 font-semibold border-b-2 border-green-600'
+                : 'text-gray-600 hover:text-green-700'
+                }`}
+            >
+              周りの近況
             </a>
             <a
               href="/contact"
@@ -101,6 +126,15 @@ export default function Header({ currentPage }: HeaderProps) {
           鳥取の農業を知る
         </a>
         <a
+          href="/agriculture-knowledge"
+          className={`block py-2 px-4 text-sm ${isActive('agriculture-knowledge')
+            ? 'text-green-700 bg-green-50'
+            : 'text-gray-600 hover:bg-green-50'
+            }`}
+        >
+          農業知識
+        </a>
+        <a
           href="/steps"
           className={`block py-2 px-4 text-sm ${isActive('steps')
             ? 'text-green-700 bg-green-50'
@@ -126,6 +160,15 @@ export default function Header({ currentPage }: HeaderProps) {
             }`}
         >
           便利なツール
+        </a>
+        <a
+          href="/community"
+          className={`block py-2 px-4 text-sm ${isActive('community')
+            ? 'text-green-700 bg-green-50'
+            : 'text-gray-600 hover:bg-green-50'
+            }`}
+        >
+          周りの近況
         </a>
         <a
           href="/contact"

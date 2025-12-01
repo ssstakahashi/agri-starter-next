@@ -87,7 +87,7 @@ export default function About() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* 特産品カード */}
               <a href="/pear" className="block bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
-                <img src="https://placehold.co/400x300/e9f5e9/333333?text=二十世紀梨" alt="二十世紀梨" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+                <img src="https://ssstakahashi-storage.studiofoods.net/image/agri/20nashi_svg.svg" alt="二十世紀梨" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
                 <div className="p-4">
                   <h3 className="font-bold">二十世紀梨</h3>
                   <p className="text-sm text-gray-600 mt-1">みずみずしい果汁とシャリシャリした食感が特徴。100年以上の歴史を誇る鳥取の顔です。</p>
@@ -108,7 +108,7 @@ export default function About() {
                 </div>
               </a>
               <a href="/watermelon" className="block bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
-                <img src="https://placehold.co/400x300/d1e7dd/333333?text=スイカ" alt="スイカ" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+                <img src="https://ssstakahashi-storage.studiofoods.net/image/agri/suika_svg.svg" alt="スイカ" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
                 <div className="p-4">
                   <h3 className="font-bold">スイカ</h3>
                   <p className="text-sm text-gray-600 mt-1">大山山麓の黒ぼく土壌で育つ大玉スイカは、糖度が高くシャリ感も抜群です。</p>
@@ -125,7 +125,14 @@ export default function About() {
         <section className="py-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center mb-12 text-green-800">さらに詳しく知る</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {/* 農業知識 */}
+              <a href="/agriculture-knowledge" className="block bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-green-800 mb-2">農業知識</h3>
+                  <p className="text-gray-600">農薬、植物生理、肥料、土壌など、農業に必要な基礎知識をまとめて学べます。</p>
+                </div>
+              </a>
               {/* 肥料を知る */}
               <a href="/fertilizers" className="block bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
                 <div className="p-6">

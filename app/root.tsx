@@ -8,10 +8,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="https://mieru-storage-backend.studiofoods.net/public/file/download/15cbf42c-bfd3-4cde-b4f6-75b9687b6881" />
+        <link rel="shortcut icon" type="image/png" href="https://mieru-storage-backend.studiofoods.net/public/file/download/15cbf42c-bfd3-4cde-b4f6-75b9687b6881" />
         <Meta />
         <Links />
-        {/* Tailwind CSS CDN */}
-        <script src="https://cdn.tailwindcss.com"></script>
         {/* Google Fonts (Inter & Noto Sans JP) */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />

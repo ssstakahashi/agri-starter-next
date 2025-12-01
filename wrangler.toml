@@ -1,5 +1,5 @@
-name = "my-app"
-compatibility_date = "2024-04-01"
+name = "agri-starter-next"
+compatibility_date = "2024-09-23"
 compatibility_flags = [ "nodejs_compat" ]
 pages_build_output_dir = "./build/client"
 
@@ -10,14 +10,15 @@ MY_VAR = "Hello from Cloudflare"
 # binding = "MY_KV_NAMESPACE"
 # id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-# [[r2_buckets]]
-# binding = "MY_BUCKET"
-# bucket_name = "my-bucket"
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "agri-starter-images"
 
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "my-database"
-# database_id = ""
+[[d1_databases]]
+binding = "DB"
+database_name = "agri-starter"
+database_id = "6312aa25-ea29-4498-acf6-f1b373e0d943"
+migrations_dir = "drizzle"
 
 # [ai]
 # binding = "AI"

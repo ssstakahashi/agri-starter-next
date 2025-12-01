@@ -7,7 +7,7 @@
 import type { AppLoadContext, EntryContext } from '@remix-run/cloudflare'
 import { RemixServer } from '@remix-run/react'
 import { isbot } from 'isbot'
-import { renderToReadableStream } from 'react-dom/server'
+import { renderToReadableStream } from 'react-dom/server.browser'
 
 export default async function handleRequest(
   request: Request,
@@ -29,7 +29,7 @@ export default async function handleRequest(
   })
 
   if (isbot(request.headers.get('user-agent') || '')) {
-    await (body as any).allReady
+    await body.allReady
   }
 
   responseHeaders.set('Content-Type', 'text/html')

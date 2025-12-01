@@ -40,7 +40,7 @@ export default function Pear() {
                 </p>
               </div>
               <div className="md:w-1/2">
-                <img src="https://placehold.co/600x400/e9f5e9/333333?text=梨園の風景" alt="鳥取の梨園" className="rounded-lg shadow-lg w-full" />
+                <img src="https://ssstakahashi-storage.studiofoods.net/image/agri/20nashi_svg.svg" alt="鳥取の梨園" className="rounded-lg shadow-lg w-full" />
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Pear() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* 二十世紀梨 */}
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
-                <img src="https://placehold.co/400x300/d4e2d4/333333?text=二十世紀梨" alt="二十世紀梨" className="w-full h-56 object-cover" />
+                <img src="https://ssstakahashi-storage.studiofoods.net/image/agri/20nashi_svg.svg" alt="二十世紀梨" className="w-full h-56 object-cover" />
                 <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-bold text-green-900">二十世紀梨 <span className="text-sm font-normal text-gray-500">(8月下旬～9月)</span></h3>
                   <p className="text-gray-600 mt-2 flex-grow">鳥取梨の代名詞。透き通るような淡い黄緑色の果皮が特徴です。シャリシャリとした心地よい食感と、甘みと酸味の絶妙なバランスが楽しめます。</p>
